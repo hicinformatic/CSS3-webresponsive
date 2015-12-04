@@ -1,0 +1,149 @@
+header{
+	background: #6d7287;
+}
+
+/********************************************************/
+/* RESET */
+/********************************************************/
+body, ul, li{
+	margin: 0;
+	padding: 0;
+}
+/* END */
+
+/********************************************************/
+/* IMAGE */
+/********************************************************/
+.wr-image-box32,
+.wr-image-grp32,
+.wr-image-hom32,
+.wr-image-lck32,
+.wr-image-mon32,
+.wr-image-pad32,
+.wr-image-usr32
+{
+	background-position: 5px;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	padding-left: 42px!important;
+}
+
+.wr-image-box32{background-image: url("img/box.png");}
+.wr-image-grp32{background-image: url("img/user_group.png");}
+.wr-image-hom32{background-image: url("img/home.png");}
+.wr-image-lck32{background-image: url("img/unlock.png");}
+.wr-image-mon32{background-image: url("img/monitor.png");}
+.wr-image-pad32{background-image: url("img/game_pad.png");}
+.wr-image-usr32{background-image: url("img/user.png");}
+/* END */
+
+/********************************************************/
+/* BACKGROUND */
+/********************************************************/
+.wr-list li:hover{background-color:rgba(0, 0, 0, 0.3);}
+
+.wr-roll:hover{background-color:rgba(0, 0, 0, 0.5);
+}.wr-roll li.wr-bar{background-color:rgba(0, 0, 0, 0.5);}
+/* END */
+
+/********************************************************/
+/* CURSOR */
+/********************************************************/
+.wr-list li{cursor: pointer;}
+.wr-roll{cursor: pointer;}
+/* END */
+
+/********************************************************/
+/* BASIC */
+/********************************************************/
+.wr-left{float: left!important;}
+.wr-right{float: right!important;}
+.wr-border-left{border-left: 1px solid rgba(0, 0, 0, 0.1);}
+.wr-border-right{border-right: 1px solid rgba(0, 0, 0, 0.2);}
+/* END */
+
+/********************************************************/
+/* > 1024 */
+/********************************************************/
+/* MENU */
+.wr-menu{
+	display: block;
+	min-height: 50px;
+}
+.wr-list{float: left;}
+.wr-list li{
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 10px;
+}
+
+.wr-roll{display: none;}
+/* END */
+
+/********************************************************/
+/* < 1024 */
+/********************************************************/
+@media all and (max-width: 1024px){
+	/********************************************************/
+	/* IMAGE */
+	/********************************************************/
+	/* END */
+
+	/********************************************************/
+	/* TEXT */
+	/********************************************************/
+	/* END */
+
+	/********************************************************/
+	/* BACKGROUND */
+	/********************************************************/
+	/* END */
+
+	/********************************************************/
+	/* CURSOR */
+	/********************************************************/
+	/* END */
+
+	/********************************************************/
+	/* SHORTCUTS */
+	/********************************************************/
+	.wr-left{float: none!important;clear: both;}
+	.wr-right{float: none!important;clear: both;}
+
+	.wr-m-hide{display: none;}
+	.wr-m-show{display: block;}
+	/* END */
+
+	/********************************************************/
+	/* BASIC */
+	/********************************************************/
+	ul{
+		width: 100%;
+	}
+	/* END */
+
+	/* MENU */
+	.wr-menu{min-height: 50px;}
+
+	.wr-list{
+		float: none;
+	}.wr-list li{
+		display: block;
+		line-height: 50px;
+		padding: 0 10px;
+	}
+
+	.wr-roll{
+		background-color:rgba(0, 0, 0, 0.3);
+		padding: 10px 0 16px;
+		margin: 0;
+		display: block;
+		width: 100%;
+	}.wr-roll li.wr-bar{
+		display: block;
+		height: 3px;
+		margin: 5px 15px 0 auto;
+		width: 50px;
+	}
+	/* END */
+}
