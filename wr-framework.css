@@ -1,10 +1,25 @@
 /********************************************************/
 /* RESET */
 /********************************************************/
-body, ul, li{
+body,
+button,
+li,
+input,
+input::-moz-focus-inner,
+ul
+{
+	border:	none;
 	margin: 0;
 	padding: 0;
 }
+
+form
+{
+	padding: 4px 5px 5px;
+}
+
+input::-moz-focus-inner { border:0; padding:0 }
+
 hr.wr-clr{clear: both; margin: 0; padding: 0; border: none;}
 /* END */
 
@@ -12,7 +27,6 @@ hr.wr-clr{clear: both; margin: 0; padding: 0; border: none;}
 /* IMAGE */
 /********************************************************/
 *[class*="wr-image-"]{background-position: left center; background-repeat: no-repeat;}
-button[class*="wr-image-"]{background-position: 5px; background-repeat: no-repeat;}
 *[class*="wr-image-box"]{background-image: url("img/box.svg");}
 *[class*="wr-image-box"]{background-image: url("img/box.svg");}
 *[class*="wr-image-gls"]{background-image: url("img/magnifying_glass.svg");}
@@ -20,13 +34,8 @@ button[class*="wr-image-"]{background-position: 5px; background-repeat: no-repea
 *[class*="wr-image-lck"]{background-image: url("img/lock_fill.svg");}
 *[class*="wr-image-ulc"]{background-image: url("img/unlock_fill.svg");}
 
-.wr-img-center{display: block; margin: 0 auto;}
-.wr-img-responsive{width: 100%; height: auto;}
-
-button.wr-form-btnimg{
-	background-color: transparent;
-	border: none;
-}button.wr-form-btnimg:hover{background-color:rgba(0, 0, 0, 0.5);}
+.wr-image-responsive{width: auto; height: auto;}
+.wr-image-center{display: block; margin: 0 auto;}
 
 .wr-image-box16,
 .wr-image-gls16,
@@ -34,10 +43,9 @@ button.wr-form-btnimg{
 .wr-image-lck16,
 .wr-image-ulc16
 {
-	background-size: 16px;
-	min-width: 16px;
-	min-height: 16px;
-	padding-left: 16px!important;}
+	background-size: auto 16px;
+	padding: 8px;
+}
 
 .wr-image-box24,
 .wr-image-gls24,
@@ -45,10 +53,9 @@ button.wr-form-btnimg{
 .wr-image-lck24,
 .wr-image-ulc24
 {
-	background-size: 24px;
-	min-width: 24px;
-	min-height: 24px;
-	padding-left: 24px!important;}
+	background-size: auto 24px;
+	padding: 12px;
+}
 
 .wr-image-box32,
 .wr-image-gls32,
@@ -56,10 +63,9 @@ button.wr-form-btnimg{
 .wr-image-lck32,
 .wr-image-ulc32
 {
-		background-size: 32px;
-		min-width: 32px;
-		min-height: 32px;
-		padding-left: 32px!important;}
+	background-size: auto 32px;
+	padding: 16px;
+}
 /* END */
 
 /********************************************************/
@@ -98,8 +104,8 @@ button.wr-form-btnimg{
 .wr-list{float: left;}
 .wr-list li{
 	display: inline-block;
-	line-height: 50px;
-	padding: 0 10px;
+	line-height: 32px;
+	padding: 9px 10px 9px 10px;
 }
 
 .wr-roll{display: none;}
@@ -108,13 +114,13 @@ button.wr-form-btnimg{
 /* FORM */
 .wr-form-inline{
 	background-color:rgba(0, 0, 0, 0.2);
-	display: block;
-	padding: 5px 5px;
 }
 
-.wr-form-inline input[type="text"]{
-	border: none;
-	height: 20px;
+.wr-form-inline input,
+.wr-form-inline button
+{
+	height: 25px;
+
 }
 .wr-form-inline button{cursor: pointer;}
 /* END */
@@ -168,8 +174,6 @@ button.wr-form-btnimg{
 		float: none;
 	}.wr-list li{
 		display: block;
-		line-height: 50px;
-		padding: 0 10px;
 	}
 
 	.wr-roll{
@@ -188,7 +192,6 @@ button.wr-form-btnimg{
 
 	/* FORM */
 	.wr-form-inline input[type="text"]{
-		width: 50%;
 	}
 	/* END */
 }

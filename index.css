@@ -1,13 +1,13 @@
-body{
-	background: #8a8e9f;
-}
+body{background: #8a8e9f;}
 
-header{
-	background: #626679;
-}
+header{background: #626679;}
 
-div#shortcut{
-	background: #6d7287;
+header	
+
+div#shortcut{background: #6d7287;}
+
+div#shortcut form{
+	background-color:rgba(0, 0, 0, 0.2);
 }
 
 img#logo{
