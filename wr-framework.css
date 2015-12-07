@@ -1,7 +1,3 @@
-header{
-	background: #6d7287;
-}
-
 /********************************************************/
 /* RESET */
 /********************************************************/
@@ -9,32 +5,61 @@ body, ul, li{
 	margin: 0;
 	padding: 0;
 }
+hr.wr-clr{clear: both; margin: 0; padding: 0; border: none;}
 /* END */
 
 /********************************************************/
 /* IMAGE */
 /********************************************************/
+*[class*="wr-image-"]{background-position: left center; background-repeat: no-repeat;}
+button[class*="wr-image-"]{background-position: 5px; background-repeat: no-repeat;}
+*[class*="wr-image-box"]{background-image: url("img/box.svg");}
+*[class*="wr-image-box"]{background-image: url("img/box.svg");}
+*[class*="wr-image-gls"]{background-image: url("img/magnifying_glass.svg");}
+*[class*="wr-image-hom"]{background-image: url("img/home.svg");}
+*[class*="wr-image-lck"]{background-image: url("img/lock_fill.svg");}
+*[class*="wr-image-ulc"]{background-image: url("img/unlock_fill.svg");}
+
+.wr-img-center{display: block; margin: 0 auto;}
+.wr-img-responsive{width: 100%; height: auto;}
+
+button.wr-form-btnimg{
+	background-color: transparent;
+	border: none;
+}button.wr-form-btnimg:hover{background-color:rgba(0, 0, 0, 0.5);}
+
+.wr-image-box16,
+.wr-image-gls16,
+.wr-image-hom16,
+.wr-image-lck16,
+.wr-image-ulc16
+{
+	background-size: 16px;
+	min-width: 16px;
+	min-height: 16px;
+	padding-left: 16px!important;}
+
+.wr-image-box24,
+.wr-image-gls24,
+.wr-image-hom24,
+.wr-image-lck24,
+.wr-image-ulc24
+{
+	background-size: 24px;
+	min-width: 24px;
+	min-height: 24px;
+	padding-left: 24px!important;}
+
 .wr-image-box32,
-.wr-image-grp32,
+.wr-image-gls32,
 .wr-image-hom32,
 .wr-image-lck32,
-.wr-image-mon32,
-.wr-image-pad32,
-.wr-image-usr32
+.wr-image-ulc32
 {
-	background-position: 5px;
-	background-repeat: no-repeat;
-	background-size: 32px;
-	padding-left: 42px!important;
-}
-
-.wr-image-box32{background-image: url("img/box.png");}
-.wr-image-grp32{background-image: url("img/user_group.png");}
-.wr-image-hom32{background-image: url("img/home.png");}
-.wr-image-lck32{background-image: url("img/unlock.png");}
-.wr-image-mon32{background-image: url("img/monitor.png");}
-.wr-image-pad32{background-image: url("img/game_pad.png");}
-.wr-image-usr32{background-image: url("img/user.png");}
+		background-size: 32px;
+		min-width: 32px;
+		min-height: 32px;
+		padding-left: 32px!important;}
 /* END */
 
 /********************************************************/
@@ -78,6 +103,20 @@ body, ul, li{
 }
 
 .wr-roll{display: none;}
+/* END */
+
+/* FORM */
+.wr-form-inline{
+	background-color:rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 5px 5px;
+}
+
+.wr-form-inline input[type="text"]{
+	border: none;
+	height: 20px;
+}
+.wr-form-inline button{cursor: pointer;}
 /* END */
 
 /********************************************************/
@@ -144,6 +183,12 @@ body, ul, li{
 		height: 3px;
 		margin: 5px 15px 0 auto;
 		width: 50px;
+	}
+	/* END */
+
+	/* FORM */
+	.wr-form-inline input[type="text"]{
+		width: 50%;
 	}
 	/* END */
 }

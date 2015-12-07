@@ -5,7 +5,11 @@
 	 height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g id="Layer_1">
 </g>
-<g id="home">
-	<path style="fill:#8a8e9f" d="M16,0L0,16h4v16h24V16h4L16,0z M24,28h-6v-6h-4v6H8V13.656L16,8l8,5.656V28z"/>
+<g id="box">
+	<g>
+		<rect y="12" style="fill:#8a8e9f;" width="32" height="20"/>
+		<polygon style="fill:#8a8e9f;" points="18,8 32,8 28,0 18,0 		"/>
+		<polygon style="fill:#8a8e9f;" points="14,0 4,0 0,8 14,8 		"/>
+	</g>
 </g>
 </svg>
