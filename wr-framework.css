@@ -26,42 +26,69 @@ hr.wr-clr{clear: both; margin: 0; padding: 0; border: none;}
 /********************************************************/
 /* IMAGE */
 /********************************************************/
-*[class*="wr-image-"]{background-position: left center; background-repeat: no-repeat;}
+*[class*="wr-image-"]{background-position: center center; background-repeat: no-repeat;}
+*[class*="wr-image-aws"]{background-image: url("img/award_stroke.svg");}
 *[class*="wr-image-box"]{background-image: url("img/box.svg");}
-*[class*="wr-image-box"]{background-image: url("img/box.svg");}
+*[class*="wr-image-cht"]{background-image: url("img/chat_alt_fill.svg");}
+*[class*="wr-image-eqz"]{background-image: url("img/equalizer.svg");}
 *[class*="wr-image-gls"]{background-image: url("img/magnifying_glass.svg");}
 *[class*="wr-image-hom"]{background-image: url("img/home.svg");}
 *[class*="wr-image-lck"]{background-image: url("img/lock_fill.svg");}
+*[class*="wr-image-mai"]{background-image: url("img/mail.svg");}
+*[class*="wr-image-plu"]{background-image: url("img/plus_alt.svg");}
 *[class*="wr-image-ulc"]{background-image: url("img/unlock_fill.svg");}
+*[class*="wr-image-usr"]{background-image: url("img/user.svg");}
+*[class*="wr-image-up"]{background-image: url("img/arrow_up_alt1.svg");}
 
 .wr-image-responsive{width: auto; height: auto;}
 .wr-image-center{display: block; margin: 0 auto;}
 
+.wr-image-aws16,
 .wr-image-box16,
+.wr-image-cht16,
+.wr-image-eqz16,
 .wr-image-gls16,
 .wr-image-hom16,
 .wr-image-lck16,
+.wr-image-mai16,
+.wr-image-plu16,
 .wr-image-ulc16
+.wr-image-usr16,
+.wr-image-up16
 {
 	background-size: auto 16px;
 	padding: 8px;
 }
 
+.wr-image-aws24,
 .wr-image-box24,
+.wr-image-cht24,
+.wr-image-eqz24,
 .wr-image-gls24,
 .wr-image-hom24,
 .wr-image-lck24,
-.wr-image-ulc24
+.wr-image-mai24,
+.wr-image-plu24,
+.wr-image-ulc24,
+.wr-image-usr24,
+.wr-image-up24
 {
 	background-size: auto 24px;
 	padding: 12px;
 }
 
+.wr-image-aws32,
 .wr-image-box32,
+.wr-image-cht32,
+.wr-image-eqz32,
 .wr-image-gls32,
 .wr-image-hom32,
 .wr-image-lck32,
-.wr-image-ulc32
+.wr-image-mai32,
+.wr-image-plu32,
+.wr-image-ulc32,
+.wr-image-usr32,
+.wr-image-up32
 {
 	background-size: auto 32px;
 	padding: 16px;

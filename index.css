@@ -1,16 +1,73 @@
-body{background: #8a8e9f;}
-
+body{background: #8a8e9f; color: #FFF;}
 header{background: #626679;}
+a{text-decoration: none; color: #FFF;}
 
-header	
 
-div#shortcut{background: #6d7287;}
+div#under-menu{background: #6d7287;}
 
-div#shortcut form{
+div#under-menu form{background-color:rgba(0, 0, 0, 0.2);}
+
+img#logo{max-height: 242px; max-width: 796px;}
+
+div#shortcuts{
+	display: block;
+	position: fixed;
+	top: 40%;
+	background-color: #626679;
+	border-radius: 0 5px 5px 0;
+}
+div#shortcuts.right{
+	border-radius: 5px 0 0 5px;
+	right: 0;
+}
+
+div#shortcuts{
+}
+div#shortcuts a span{
+	padding: 20px;
+	display: block;
+}
+div#shortcuts a span:hover{
+	border-radius: 0 5px 5px 0;
 	background-color:rgba(0, 0, 0, 0.2);
 }
-
-img#logo{
-	max-height: 242px;
-	max-width: 796px;
+div#shortcuts.right a span:hover{
+	border-radius: 5px 0 0 5px;
 }
+
+section{
+	background-color: #626679;
+	height: 800px;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 5px 5px 0 0;
+}
+
+section ul#header{
+	background-color:rgba(0, 0, 0, 0.1);
+	border-radius: 5px 5px 0 0;
+}
+section ul#header li{
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+}
+section ul#header li a{
+	display: block;
+}
+section ul#header li a:hover{
+	background-color:rgba(0, 0, 0, 0.1);
+	border-radius: 5px 5px 0 0;
+}
+
+
+footer{
+	display: block;
+	background-color: #626679;
+	border-top: 2px solid #8A8E9F;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
