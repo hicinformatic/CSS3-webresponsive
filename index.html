@@ -1,107 +1,46 @@
+<!-- Document HTML5 -->
 <!DOCTYPE html>
 <html>
+	<!-- META/TITRE/CSS -->
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Title of the document</title>
-		<link rel="stylesheet" type="text/css" href="wr-framework.css">
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
+		<title>Test Web Responsive</title>
+		<link rel="stylesheet" type="text/css" href="wr-easy/loader.css">
 	</head>
-	<body>
-		<header class="wr-menu">
-			<ul class="wr-roll wr-right">
-				<li class="wr-bar"><br class="wr-br"></li>
-				<li class="wr-bar"><br class="wr-br"></li>
-				<li class="wr-bar"><br class="wr-br"></li>
-			</ul>
-			<ul class="wr-list wr-m-hide ">
-				<li>
-					<a href="#">
-						<span class="wr-image-hom32 wr-left"></span>&nbsp;Home
-					</a>
-				</li><li>
-					<a href="#">
-						<span class="wr-image-box32 wr-left"></span>&nbsp;Rumpus
-					</a>
-				</li>
-			</ul>
 
-			<ul class="wr-list wr-m-hide wr-right">
-				<li>
-					<a href="#">
-						<span class="wr-image-lck32 wr-left"></span>&nbsp;Connexion
-					</a>
-				</li>
-			</ul>
-		</header>
+	<!-- Corps du site, affiché -->
+	<body class="whitness">
 
-		<div id="shortcuts">
-			<a href="#">
-				<span class="wr-image-usr32"></span>
-			</a>
-	
-			<a href="#">
-				<span class="wr-image-aws32"></span>
-			</a>
-	
-			<a href="#">
-				<span class="wr-image-eqz32"></span>
-			</a>
-		</div>
+		<!-- Menu -->
+		<nav class="wr-container wr-txt-center">
+			<nav class="wr-menu">
+				<a href="#" class="test">Lien 1</a><!--
+				--><a href="#">Lien 2</a><!--
+				--><a href="#">Lien 3</a>
+			</nav><!--
 
-		<div id="shortcuts" class="right">
-			<a href="#">
-				<span class="wr-image-up32"></span>
-			</a>
-	
-			<a href="#">
-				<span class="wr-image-plu32"></span>
-			</a>
-		</div>
+			--><nav class="wr-menu">
+				<a href="#">Lien 1</a><!--
+				--><a href="#">Lien 2</a><!--
+				--><a href="#">Lien 3</a>
+			</nav>
+		</nav>
 
-		<img id="logo" class="wr-image-center wr-image-responsive" src="http://hic.informatique.free.fr/images/logo_official.png">
-		
-		<section>
-			<ul id="header">
-				<li>
-					<a href="#">New</a>
-				</li><li>
-					<a href="#">Top</a>
-				</li><li>
-					<a href="#">Day</a>
-				</li><li>
-					<a href="#">Group</a>
-				</li>
-			</ul>
-		</section>
+		<!-- Zone pour les articles -->
+		<article>
+			<header>
+				<h1>Title (in header)</h1>
+			</header>
+			<p>Article Content</p>
+			<footer>
+				<p>Posted by: Hege Refsnes (in footer)</p>
+			</footer>
+		</article> 
 
+		<!-- Pied de page -->
 		<footer>
-			<a href="#">
-				<img src="social/048x048/icontexto-inside-favorites.png">
-			</a>
-			<a href="#">
-				<img src="social/048x048/icontexto-inside-facebook.png">
-			</a>
-			<a href="#">
-				<img src="social/048x048/icontexto-inside-twitter.png">
-			</a>
-			<a href="#">
-				<img src="social/048x048/icontexto-inside-youtube.png">
-			</a>
-			<ul class="wr-list wr-right wr-m-show">
-				<li>
-					<a href="#">
-						<span class="wr-image-cht32 wr-left"></span>
-					</a>
-				</li><li>
-					<a href="#">
-						<span class="wr-image-mai32 wr-left"></span>
-					</a>
-				</li>
-			</ul>
+			<p>Created By Charles DELENCRE</p>
 		</footer>
-		
-		<script src="jquery.js"></script>
-		<script src="wr-framework.js"></script>
+
 	</body>
-</html> 
+</html>

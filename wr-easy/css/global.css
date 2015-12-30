@@ -1,0 +1,10 @@
+html,
+body{
+	display: block;
+	width: 100%;
+
+}
+
+.wr-txt-center{
+	text-align: center;
+}

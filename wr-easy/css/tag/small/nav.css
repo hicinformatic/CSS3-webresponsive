@@ -1,0 +1,11 @@
+@media (max-width: 1024px){
+
+nav,
+nav *
+{
+	display: block!important;
+	width: 100%!important;
+	background-color: yellow!important;
+}
+
+}

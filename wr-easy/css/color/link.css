@@ -1,0 +1,2 @@
+body.whitness * > a			{	color: black; 	}
+body.whitness * > a:hover	{	background-color:rgba(0, 0, 0, 0.1);	}
