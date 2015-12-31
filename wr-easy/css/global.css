@@ -1,10 +1,11 @@
-html,
-body{
+html, body{
 	display: block;
 	width: 100%;
-
 }
 
-.wr-txt-center{
-	text-align: center;
-}
+.wr-txt-center{	text-align: center;	}
+.wr-txt-left{	text-align: left;	}
+.wr-txt-right{	text-align: right;	}
+
+.wr-pos-left{	float: 		left;	}
+.wr-pos-right{	float: 		right;	}

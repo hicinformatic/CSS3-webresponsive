@@ -4,41 +4,15 @@
 /* Surcharge du CSS */
 @import url("css/global.css");
 
-/* Gestion des tailles */
-@import url("css/size/div.css");
-@import url("css/size/form.css");
-@import url("css/size/image.css");
-@import url("css/size/link.css");
-@import url("css/size/nav.css");
-@import url("css/size/section.css");
-@import url("css/size/table.css");
-
-/* Gestion des couleurs */
-@import url("css/color/div.css");
-@import url("css/color/form.css");
-@import url("css/color/image.css");
-@import url("css/color/link.css");
-@import url("css/color/nav.css");
-@import url("css/color/section.css");
-@import url("css/color/table.css");
-
 /* Gestion globales */
-@import url("css/tag/div.css");
-@import url("css/tag/form.css");
-@import url("css/tag/image.css");
-@import url("css/tag/link.css");
-@import url("css/tag/nav.css");
-@import url("css/tag/section.css");
-@import url("css/tag/table.css");
-
-/* Gestion de la typographie */
-@import url("css/fonts/div.css");
-@import url("css/fonts/form.css");
-@import url("css/fonts/image.css");
-@import url("css/fonts/link.css");
-@import url("css/fonts/nav.css");
-@import url("css/fonts/section.css");
-@import url("css/fonts/table.css");
+@import url("css/tag/large/body.css");
+@import url("css/tag/large/div.css");
+@import url("css/tag/large/form.css");
+@import url("css/tag/large/image.css");
+@import url("css/tag/large/link.css");
+@import url("css/tag/large/nav.css");
+@import url("css/tag/large/section.css");
+@import url("css/tag/large/table.css");
 
 /*********************** écrans < 1024 px ***********************/
 
@@ -48,25 +22,8 @@
 /* Surcharge du  CSS < 1024px */
 @import url("css/global-1024.css");
 
-/* Gestion des tailles < 1024px */
-@import url("css/size/small/div.css");
-@import url("css/size/small/form.css");
-@import url("css/size/small/image.css");
-@import url("css/size/small/link.css");
-@import url("css/size/small/section.css");
-@import url("css/size/small/nav.css");
-@import url("css/size/small/table.css");
-
-/* Gestion des couleurs < 1024 px */
-@import url("css/color/small/div.css");
-@import url("css/color/small/form.css");
-@import url("css/color/small/image.css");
-@import url("css/color/small/link.css");
-@import url("css/color/small/nav.css");
-@import url("css/color/small/section.css");
-@import url("css/color/small/table.css");
-
 /* Gestion globales < 1024px */
+@import url("css/tag/small/body.css");
 @import url("css/tag/small/div.css");
 @import url("css/tag/small/form.css");
 @import url("css/tag/small/image.css");
@@ -75,11 +32,13 @@
 @import url("css/tag/small/section.css");
 @import url("css/tag/small/table.css");
 
-/* Gestion de la typographie < 1024px */
-@import url("css/fonts/small/div.css");
-@import url("css/fonts/small/form.css");
-@import url("css/fonts/small/image.css");
-@import url("css/fonts/small/link.css");
-@import url("css/fonts/small/nav.css");
-@import url("css/fonts/small/section.css");
-@import url("css/fonts/small/table.css");
+/*********************** Global ***********************/
+
+@import url("css/tag/body.css");
+@import url("css/tag/div.css");
+@import url("css/tag/form.css");
+@import url("css/tag/image.css");
+@import url("css/tag/link.css");
+@import url("css/tag/nav.css");
+@import url("css/tag/section.css");
+@import url("css/tag/table.css");

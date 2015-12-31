@@ -1,0 +1,14 @@
+div.wr-container-inline,
+div.wr-container-inline *{	display: block;	}
+div.wr-container-inline>*{	display: inline-block;}
+
+div.wr-container-inline>*:first-child:nth-last-child(1),	div.wr-container-inline>*:first-child:nth-last-child(1)~*	{	width: 100%;	}
+div.wr-container-inline>*:first-child:nth-last-child(2),	div.wr-container-inline>*:first-child:nth-last-child(2)~*	{	width: 50%;		}
+div.wr-container-inline>*:first-child:nth-last-child(3),	div.wr-container-inline>*:first-child:nth-last-child(3)~*	{	width: 33.33%;	}
+div.wr-container-inline>*:first-child:nth-last-child(4),	div.wr-container-inline>*:first-child:nth-last-child(4)~*	{	width: 25%;		}
+div.wr-container-inline>*:first-child:nth-last-child(5),	div.wr-container-inline>*:first-child:nth-last-child(5)~*	{	width: 20%;		}
+div.wr-container-inline>*:first-child:nth-last-child(6),	div.wr-container-inline>*:first-child:nth-last-child(6)~*	{	width: 16.66%;	}
+div.wr-container-inline>*:first-child:nth-last-child(7),	div.wr-container-inline>*:first-child:nth-last-child(7)~*	{	width: 14.28%;	}
+div.wr-container-inline>*:first-child:nth-last-child(8),	div.wr-container-inline>*:first-child:nth-last-child(8)~*	{	width: 12.5%;	}
+div.wr-container-inline>*:first-child:nth-last-child(9),	div.wr-container-inline>*:first-child:nth-last-child(9)~*	{	width: 11.11%;	}
+div.wr-container-inline>*:first-child:nth-last-child(10),	div.wr-container-inline>*:first-child:nth-last-child(10)~*	{	width: 10%;		}

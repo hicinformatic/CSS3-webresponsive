@@ -1,11 +1,43 @@
 @media (max-width: 1024px){
+/* IF */
 
-nav,
-nav *
+/* Alignement */
+nav.wr-container-inline *
 {
-	display: block!important;
-	width: 100%!important;
-	background-color: yellow!important;
+	display:	block!important;
+	width:		100%!important;
 }
 
+/* Status déroulement par défaut */
+nav.wr-menu{
+	display: none!important;
+}
+
+/* Bouton de déroulement */
+nav.wr-container-inline div.wr-roll button{
+	height: 100%!important;
+	width: 10%!important;
+	padding-right: 1%!important;
+	padding-left: 1%!important;
+}
+
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(1) ~ hr:nth-child(2n+2),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(3) ~ hr:nth-child(2n+2),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(5) ~ hr:nth-child(2n+2),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(7) ~ hr:nth-child(2n+2),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(9) ~ hr:nth-child(2n+2)
+{	background-color: rgba(0, 0, 0, 0.3)!important;	}
+
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(1),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(1) ~ hr{	height: 100%;	}
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(3),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(3) ~ hr{	height: 33.33%;	}
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(5),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(5) ~ hr{	height: 20%;	}
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(7),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(7) ~ hr{	height: 14.28%;	}
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(9),
+nav.wr-container-inline div.wr-roll button hr:first-of-type:nth-last-child(9) ~ hr{	height: 11.11%;	}
+
+/* ENDIF */
 }

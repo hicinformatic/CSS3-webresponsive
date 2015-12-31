@@ -1,0 +1,12 @@
+@media (max-width: 1024px){
+/* IF */
+
+div.wr-container-inline > *
+{
+	display:	block!important;
+	width:		100%!important;
+}
+
+
+/* ENDIF */
+}
