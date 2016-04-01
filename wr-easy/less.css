@@ -1,0 +1,115 @@
+
+/* racine */
+@import url("less/html.css");
+
+/* sections */
+@import url("less/body.css");
+@import url("less/section.css");
+@import url("less/nav.css");
+@import url("less/article.css");
+@import url("less/aside.css");
+@import url("less/h.css");/* @import url("less/h1.css");,@import url("less/h2.css");,@import url("less/h3.css");,@import url("less/h4.css");,@import url("less/h5.css");,@import url("less/h6.css");*/
+@import url("less/hgroup.css");
+@import url("less/header");
+@import url("less/footer");
+@import url("less/address");
+
+/* blocs */
+@import url("less/p.css");
+@import url("less/hr.css");
+@import url("less/pre.css");
+@import url("less/blockquote.css");
+@import url("less/ol.css");
+@import url("less/ul.css");
+@import url("less/li.css");
+@import url("less/dl.css");
+@import url("less/dt.css");
+@import url("less/dd.css");
+@import url("less/figure.css");
+@import url("less/figcaption.css");
+@import url("less/div.css");
+
+/* text */
+@import url("less/a.css");
+@import url("less/em.css");
+@import url("less/strong.css");
+@import url("less/small.css");
+@import url("less/s.css");
+@import url("less/cite.css");
+@import url("less/q.css");
+@import url("less/dfn.css");
+@import url("less/abbr.css");
+@import url("less/data.css");
+@import url("less/time.css");
+@import url("less/code.css");
+@import url("less/var.css");
+@import url("less/samp.css");
+@import url("less/kbd.css");
+@import url("less/sub.css");
+@import url("less/sup.css");
+@import url("less/i.css");
+@import url("less/b.css");
+@import url("less/u.css");
+@import url("less/mark.css");
+@import url("less/ruby.css");
+@import url("less/rt.css");
+@import url("less/rp.css");
+@import url("less/bdi.css");
+@import url("less/bdo.css");
+@import url("less/span.css");
+@import url("less/br.css");
+@import url("less/wbr.css");
+
+/* table */
+@import url("less/table.css");
+@import url("less/caption.css");
+@import url("less/colgroup.css");
+@import url("less/col.css");
+@import url("less/tbody.css");
+@import url("less/thead.css");
+@import url("less/tfoot.css");
+@import url("less/tr.css");
+@import url("less/td.css");
+@import url("less/th.css");
+
+/* formular */
+@import url("less/form.css");
+@import url("less/fieldset.css");
+@import url("less/legend.css");
+@import url("less/label.css");
+@import url("less/input.css");
+@import url("less/button.css");
+@import url("less/select.css");
+@import url("less/datalist.css");
+@import url("less/optgroup.css");
+@import url("less/option.css");
+@import url("less/textarea.css");
+@import url("less/keygen.css");
+@import url("less/output.css");
+@import url("less/progress.css");
+@import url("less/meter.css");
+
+/* edition */
+@import url("less/ins.css");
+@import url("less/del.css");
+
+/* interactivity */
+@import url("less/details.css");
+@import url("less/summary.css");
+@import url("less/command.css");
+@import url("less/menu.css");
+
+/* media */
+@import url("less/img.css");
+@import url("less/iframe.css");
+@import url("less/object.css");
+@import url("less/param.css");
+@import url("less/video.css");
+@import url("less/audio.css");
+@import url("less/source.css");
+@import url("less/track.css");
+@import url("less/canvas.css");
+@import url("less/map.css");
+@import url("less/area.css");
+@import url("less/svg.css");
+@import url("less/math.css");

@@ -1,0 +1,44 @@
+/* Reset du  CSS */
+@import url("css/reset.css");
+
+/* Surcharge du CSS */
+@import url("css/global.css");
+
+/* Gestion globales */
+@import url("css/tag/large/body.css");
+@import url("css/tag/large/div.css");
+@import url("css/tag/large/form.css");
+@import url("css/tag/large/image.css");
+@import url("css/tag/large/link.css");
+@import url("css/tag/large/nav.css");
+@import url("css/tag/large/section.css");
+@import url("css/tag/large/table.css");
+
+/*********************** écrans < 1024 px ***********************/
+
+/* Reset du  CSS < 1024px */
+@import url("css/reset-1024.css");
+
+/* Surcharge du  CSS < 1024px */
+@import url("css/global-1024.css");
+
+/* Gestion globales < 1024px */
+@import url("css/tag/small/body.css");
+@import url("css/tag/small/div.css");
+@import url("css/tag/small/form.css");
+@import url("css/tag/small/image.css");
+@import url("css/tag/small/link.css");
+@import url("css/tag/small/nav.css");
+@import url("css/tag/small/section.css");
+@import url("css/tag/small/table.css");
+
+/*********************** Global ***********************/
+
+@import url("css/tag/body.css");
+@import url("css/tag/div.css");
+@import url("css/tag/form.css");
+@import url("css/tag/image.css");
+@import url("css/tag/link.css");
+@import url("css/tag/nav.css");
+@import url("css/tag/section.css");
+@import url("css/tag/table.css");
