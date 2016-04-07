@@ -1,8 +1,0 @@
-/* Valeur personnalisable */
-nav[class^='wr-container']{								background-color: rgba(0, 0, 0, 0.1)!important;		}
-nav[class^='wr-container'] div.wr-roll{					background-color: rgba(0, 0, 0, 0.1)!important;		}
-nav[class^='wr-container'] div.wr-roll{					height:				50px;							}
-nav[class^='wr-container'] div.wr-roll button{			min-width:			70px!important;					}
-nav[class^='wr-container'] div.wr-roll button:hover{	background-color:	rgba(0, 0, 0, 0.1)!important;	}
-nav[class^='wr-container'] div.wr-roll button:hover{	cursor: 			pointer;						}
-nav.wr-menu *{											line-height:		50px;							}

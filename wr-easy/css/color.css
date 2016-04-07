@@ -1,0 +1,24 @@
+/* Background */
+body *                                       {   color: black;               }
+body                                         {   background-color: white;    }
+body a:hover,body nav                        {   background-color: rgba(0, 0, 0, 0.1);   }
+body *.wr-button-roll                        {   background-color: rgba(0, 0, 0, 0.2);   }
+body *.wr-button-roll:hover                  {   background-color: rgba(0, 0, 0, 0.3);   }
+body *.wr-button-roll *>hr                   {   background-color: rgba(0, 0, 0, 0.5);   }
+body *.wr-button-roll *>hr:nth-child(2n+1)   {   background-color: transparent;          }
+
+/* Darkness */
+body.darkness *                                      {   color: white;                   }
+body.darkness                                        {   background-color: black;        }
+body.darkness a:hover,body.darkness nav              {   background-color: rgba(255, 255, 255, 0.1);     }
+body.darkness *.wr-button-roll                       {   background-color: rgba(255, 255, 255, 0.2);     }
+body.darkness *.wr-button-roll:hover                 {   background-color: rgba(255, 255, 255, 0.3);     }
+body.darkness *.wr-button-roll *>hr                  {   background-color: rgba(255, 255, 255, 0.5);     }
+body.darkness *.wr-button-roll *>hr:nth-child(2n+1)  {   background-color: transparent;                  }
+
+/* Override Test */
+body section>h1         {   background-color: rgba(0, 0, 0, 0.1);   }
+body>footer     {   background-color: rgba(0, 0, 0, 0.1);   }
+
+body.darkness section>h1        {   background-color: rgba(255, 255, 255, 0.1); }
+body.darkness>footer    {   background-color: rgba(255, 255, 255, 0.1); }
