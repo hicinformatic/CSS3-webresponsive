@@ -6,6 +6,7 @@
     outline:    0;
     padding:    0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 title       {   display: none;                  }
@@ -19,6 +20,7 @@ tbody       {   display: table-row-group;       }
 col         {   display: table-column;          }
 tr          {   display: table-row;             }
 td          {   display: table-cell;            }
+time        {   display: initial;               }
 
 *[class^='wr-bg']{
     background-position: center center;
@@ -29,15 +31,22 @@ span[class^='wr-bg']{
     vertical-align: middle;
 }
 
-*.wr-txt-center {   text-align: center; }
-*.wr-txt-left   {   text-align: left;   }
-*.wr-txt-right  {   text-align: right;  }
-*.wr-blk-center {   margin: 0 auto;     }
+*.wr-txt-center     {   text-align: center; }
+*.wr-txt-left       {   text-align: left;   }
+*.wr-txt-right      {   text-align: right;  }
+*.wr-blk-center     {   margin: 0 auto;     }
 
-br.wr-break5    {   margin: 2.5px 0;   }
-br.wr-break10   {   margin: 5px 0;  }
-br.wr-break15   {   margin: 7.5px 0;  }
-br.wr-break20   {   margin: 10px 0;  }
+*.wr-break1    {   margin: 0.5px 0;    }
+*.wr-break2    {   margin: 1px 0;    }
+*.wr-break3    {   margin: 1.5px 0;    }
+*.wr-break4    {   margin: 2px 0;    }
+*.wr-break5    {   margin: 2.5px 0;    }
+*.wr-break10   {   margin: 5px 0;      }
+*.wr-break15   {   margin: 7.5px 0;    }
+*.wr-break20   {   margin: 10px 0;     }
+
+*.wr-valign-middle      {   vertical-align: middle;  }
+*.wr-subvalign-middle>* {   vertical-align: middle;  }
 
 *.wr-button-roll:hover~*{   display: block; }
 *.wr-button-roll *      {   height: 100%;width: 100%;display: inline-block;     }
@@ -315,7 +324,9 @@ br.wr-break20   {   margin: 10px 0;  }
     *.wr-fill-small>.wr-width1   {   width: 1%;    }
 }
 
-/* Background */
+*.wr-display-none   {   display: none;      }
+
+/* Background Whitness */
 body *                                       {   color: black;               }
 body                                         {   background-color: white;    }
 body a:hover,body nav                        {   background-color: rgba(0, 0, 0, 0.1);   }
@@ -324,7 +335,41 @@ body *.wr-button-roll:hover                  {   background-color: rgba(0, 0, 0,
 body *.wr-button-roll *>hr                   {   background-color: rgba(0, 0, 0, 0.5);   }
 body *.wr-button-roll *>hr:nth-child(2n+1)   {   background-color: transparent;          }
 
-/* Darkness */
+
+
+form.wr-form fieldset{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form.wr-form fieldset:hover>legend{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form.wr-form legend{
+    margin-left: 15px;
+    background: #FFF;
+}
+
+form.wr-form input{
+    background-color: #FFF;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+}
+form.wr-form input[type="text"],
+form.wr-form input[type="password"]
+{   
+    border-left: 3px solid rgba(0, 0, 0, 0.1);
+    border-right: 3px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 7px;
+    padding: 4px 0;
+}
+form.wr-form input[type="submit"]{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 4px 0;
+}
+form.wr-form input[type="submit"]:hover{background-color: rgba(0, 0, 0, 0.2); }
+
+/* Background Darkness */
 body.darkness *                                      {   color: white;                   }
 body.darkness                                        {   background-color: black;        }
 body.darkness a:hover,body.darkness nav              {   background-color: rgba(255, 255, 255, 0.1);     }
@@ -385,10 +430,26 @@ span.wr-bg48    {   height: 48px;width: 48px;   }
     66% {transform: rotate(-1deg);}
     100% {transform: rotate(0deg);}
 }
+*.wr-anim-balance{
+    animation-name: balance;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
 
 @keyframes rightdisappear{
-  100%{
-    transform: translateX(90%);
-    opacity: 0; visibility: hidden;
-  }
+    100%{
+        transform: translateX(90%);
+        opacity: 0; 
+        visibility: hidden;
+    }
+}
+
+*.wr-anim-bgcolorlinear,
+*.wr-anim-bgcolorlinear:hover
+{
+    -webkit-transition: background-color 1000ms linear;
+    -moz-transition: background-color 1000ms linear;
+    -o-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
