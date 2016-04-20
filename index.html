@@ -6,204 +6,117 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
         <title>Test Web Responsive</title>
-        <link rel="stylesheet" type="text/css" href="wr-easy/wr-easy.css">
+        <link rel="stylesheet" type="text/css" href="wr-easy.css">
         <!--<link rel="stylesheet" type="text/css" href="css/loader.css">-->
+
+        <style>
+            body, html{margin: 0 auto;}
+            section#percent div.wr-fill > *[class^='wr-width']{line-height: 50px; text-align: center;}
+            section#percent div.wr-fill > *[class^='wr-width']:nth-child(odd){background-color: rgba(0, 0, 0, 0.4);}
+            section#percent div.wr-fill > *[class^='wr-width']:nth-child(even){background-color: rgba(0, 0, 0, 0.6);}
+            
+            section#percent div.wr-inline > *{line-height: 50px; text-align: center;}
+            section#percent div.wr-inline > *:nth-child(odd){background-color: rgba(0, 0, 0, 0.4);}
+            section#percent div.wr-inline > *:nth-child(even){background-color: rgba(0, 0, 0, 0.6);}
+        </style>
     </head>
 
     <!-- Corps du site, affiché -->
-    <body class="whitness">
-
-        <!-- Menu -->
-        <div id="menu-top">
-
-            <!-- Bouton de déroulement -->
-            <div class="wr-button-roll wr-only-md-sm wr-txt-right">
-                <div class="wr-streak" style="height: 50px; width: 100px;">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+    <body class="whitness active">
+        <header>
+                <div class="wr-discover wr-block wr-only-md wr-only-sm wr-txt-right">
+                    <span class="wr-streak wr-block" style="height: 50px; width: 100px;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
                 </div>
-            </div>
-
-            <!-- Menus -->
-            <div class="wr-fill-large wr-subvalign-middle wr-discover-md-sm wr-txt-center-large">
-                <!-- premier menu -->
-                <nav class="wr-width35 wr-inline-large">
-                       <a href="index.html" class="wr-a-active"><span class="wr-bg24 wr-bg-mdc-home"></span>Accueil</a><!--
-                    --><a href="rumpus.html"><span class="wr-bg24 wr-bg-mdc-flag"></span>Rumpus</a><!--
-                    --><a href="forum.html"><span class="wr-bg24 wr-bg-mdc-board"></span>Forum</a>
-                </nav><!--
-
-             --><div class="wr-width30 wr-only-large">
-                    <a href="#">!INFO!</a>
-                </div><!--
-
-                deuxième menu
-                --><nav class="wr-width35 wr-inline-large">
-                        <a href="profile.html"><span class="wr-bg24 wr-bg-mdc-user"></span>Profile</a><!--
-                     --><a href="inventory.html"><span class="wr-bg24 wr-bg-mdc-bag"></span>Inventaire</a>
+                <nav class="wr-block wr-inline-lg wr-only-lg wr-txt-center-lg">
+                    <a class="wr-active" href="index.html">Index</a><!--
+                 --><a href="blog.html">Blog</a><!--
+                 --><a href="gallery.html">Gallery</a><!--
+                 --><a href="forum.html">Forum</a><!--
+                 --><a href="widget.html">Widget</a>
                 </nav>
+        </header>
+
+        <section id="percent">
+            <h1 class="wr-border-bot5">Percent</h1>
+
+            <p class="wr-txt-center">3 full size</p>
+            <div class="wr-fill">
+                <div class="wr-width25">25%</div><!--
+             --><div class="wr-width50">50%</div><!--
+             --><div class="wr-width25">25%</div>
             </div>
 
-        </div>
-
-        <!-- Informations -->
-        <div class="wr-txt-center wr-reverse-color" style="background-color: white">
-            <p class="wr-anim-balance">Miseratione sunt rebus permutatione eum Petobionem ducens apparuit praestitutum oppigneratos.</p>
-        </div>
-
-        <!-- principal -->
-        <div  class="wr-fill-large">
-
-            <!-- -->
-            <section class="wr-only-large wr-width20">
-                <h1 class="wr-txt-center">Affinage section</h1>
-                <table>
-                    <tr>
-                        <td style="width: 60%">test</td><td style="width: 40%">54</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 60%">test</td><td style="width: 40%">54</td>
-                    </tr>
-                </table>
-            </section><!--
-
-        separator
-         --><div class="wr-width5"></div><!--
-
-         --><section class="wr-txt-center wr-width50">
-                <h1>Article Section</h1>
-
-                <!-- Troisème article -->
-                <br class="wr-break5"/>
-                <article>
-                    <a href="#">
-                        <div class="wr-fill">
-                            <img class="wr-width30" src="test.jpg" alt="test"/><!--
-
-                        --><div class="wr-width5"></div><!--
-                         --><div class="wr-fill wr-width40 wr-txt-left">
-                                <header>
-                                    <h2>Title (in header)</h2>
-                                </header>
-                                <p class="wr-width100">Article Content</p>
-                                <footer class="wr-width100">
-                                    <time datetime="2008-02-14 20:00">2008-02-14 20:00</time>
-                                    <p>Posted by: Hege Refsnes (in footer)</p>
-                                </footer>
-                            </div><!--
-                         --><div class="wr-width25 wr-anim-parent-hover-rightdisappear">&rarr;</div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- Troisème article -->
-                <br class="wr-break5"/>
-                <article>
-                    <a href="#">
-                        <div class="wr-fill">
-                            <img class="wr-width30" src="test.jpg" alt="test"/><!--
-
-                        --><div class="wr-width5"></div><!--
-                         --><div class="wr-fill wr-width40 wr-txt-left">
-                                <header>
-                                    <h2>Title (in header)</h2>
-                                </header>
-                                <p class="wr-width100">Article Content</p>
-                                <footer class="wr-width100">
-                                    <time datetime="2008-02-14 20:00">2008-02-14 20:00</time>
-                                    <p>Posted by: Hege Refsnes (in footer)</p>
-                                </footer>
-                            </div><!--
-                         --><div class="wr-width25 wr-anim-parent-hover-rightdisappear">&rarr;</div>
-                        </div>
-                    </a>
-                </article>
-
-                <!-- Troisème article -->
-                <br class="wr-break5"/>
-                <article>
-                    <a href="#">
-                        <div class="wr-fill">
-                            <img class="wr-width30" src="test.jpg" alt="test"/><!--
-
-                        --><div class="wr-width5"></div><!--
-                         --><div class="wr-fill wr-width40 wr-txt-left">
-                                <header>
-                                    <h2>Title (in header)</h2>
-                                </header>
-                                <p class="wr-width100">Article Content</p>
-                                <footer class="wr-width100">
-                                    <time datetime="2008-02-14 20:00">2008-02-14 20:00</time>
-                                    <p>Posted by: Hege Refsnes (in footer)</p>
-                                </footer>
-                            </div><!--
-                         --><div class="wr-width25 wr-anim-parent-hover-rightdisappear">&rarr;</div>
-                        </div>
-                    </a>
-                </article>
-
-            </section><!--
-
-        separator
-         --><div class="wr-width5"></div><!--
-
-         --><section class="wr-width20">
-                <h1 class="wr-txt-center">Affinage</h1>
-                <div class="wr-txt-center">
-                    <a href="#" style="line-height: 50px">Tutoriel</a>
-                    <a href="#" style="line-height: 50px">Videos</a>
+            <p class="wr-txt-center">3 50% size</p>
+            <div class="wr-fill">
+               <div class="wr-fill wr-width50 wr-widthcenter">
+                   <div class="wr-width25">25%</div><!--
+                --><div class="wr-width50">50%</div><!--
+                --><div class="wr-width25">25%</div>
                 </div>
-
-                <!-- space -->
-                <br class="wr-break5"/>
-
-                <h1 class="wr-txt-center">Tags</h1>
-                
-                <form class="wr-form">
-                    <fieldset class="wr-fill-large">
-                        <legend class="wr-anim-bgcolorlinear">Rechercher</legend>
-                        <input class="wr-width70" type="text"/><input class="wr-width30" type="submit"/>
-                    </fieldset>
-                </form>
-
-                <div class="wr-inline wr-txt-center" style="line-height: 35px">
-                    <a href="#">tag#1</a><a href="#">tag#2</a><a href="#">tag#3</a>
-                </div>
-                <div class="wr-inline wr-txt-center" style="line-height: 35px">
-                    <a href="#">tag#1</a><a href="#">tag#2</a><a href="#">tag#3</a>
-                </div>
-                <div class="wr-inline wr-txt-center" style="line-height: 35px">
-                    <a href="#">tag#1</a><a href="#">tag#2</a><a href="#">tag#3</a>
-                </div>
-
-            </section>
-        </div>
-
-        <div class="wr-fill-large wr-txt-center">
-            <div class="wr-width50 wr-inline" style="line-height: 50px;">
-                <a href="#">&larr;</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><!--
-                --><p>...</p><!--
-                --><a href="#">7</a><a href="#">8</a><a href="#">9</a><a href="#">&rarr;</a>            
             </div>
-        </div>
 
-        <!-- footer -->    
-        <footer class="wr-txt-center">
-            <p>Created By Gyn</p>
-            <p>Copyright &copy; Onestaufond.fr</p>
-            <div class="wr-inline wr-blk-center" style="width: 190px;">
-                <a href="#"><span class="wr-bg48 wr-bg-scl-facebook"></span></a><!--
-                --><a href="#"><span class="wr-bg48 wr-bg-scl-twitter"></span></a><!--
-                --><a href="#"><span class="wr-bg48 wr-bg-scl-youtube"></span></a>
+
+            <p class="wr-txt-center">3 50% size without center</p>
+            <div class="wr-fill">
+               <div class="wr-fill wr-width50">
+                   <div class="wr-width25">25%</div><!--
+                --><div class="wr-width50">50%</div><!--
+                --><div class="wr-width5">5%</div>
+                </div>
             </div>
-        </footer>
 
+            <p class="wr-txt-center">Medley size</p>
+            <div class="wr-fill">
+                   <div class="wr-width25">25%</div><!--
+                --><div class="wr-width10">10%</div><!--
+                --><div class="wr-width30">30%</div><!--
+                --><div class="wr-width12">12%</div><!--
+                --><div class="wr-width8">8%</div><!--
+                --><div class="wr-width15">15%</div>
+            </div>
+             <div class="wr-fill">
+                   <div class="wr-width40">40%</div><!--
+                --><div class="wr-width10">10%</div><!--
+                --><div class="wr-width30">30%</div><!--
+                --><div class="wr-width12">12%</div><!--
+                --><div class="wr-width8">8%</div>
+            </div>
+
+        </section>
+        <section id="percent">
+            <h1 class="wr-border-bot5">Automatic</h1>
+
+            <p class="wr-txt-center">3 automatic sizing</p>
+            <div class="wr-inline">
+               <div>100%/3</div><!--
+            --><div>100%/3</div><!--
+            --><div>100%/3</div>
+            </div>
+
+            <p class="wr-txt-center">10 automatic sizing</p>
+            <div class="wr-inline">
+               <div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div><!--
+            --><div>100%/10</div>
+            </div>
+        </section>
+
+        <footer></footer>
         <!-- javascript -->
-        <script type='text/javascript' src="wr-easy/loader.js"></script>
     </body>
 </html>
