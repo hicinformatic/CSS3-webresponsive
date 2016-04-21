@@ -100,7 +100,7 @@
 .wr-break20   {   margin: 10px 0;     }
 
 /* Adjust on percent */
-.wr-fill *            {   max-width:100%;   }
+.wr-fill *            {   max-width:100%; box-sizing: border-box;  }
 .wr-fill>*            {   display: inline-block; vertical-align: top; max-width:100%;   }
 .wr-fill>.wr-width100 {   width: 100%;  }
 .wr-fill>.wr-width95  {   width: 95%;   }
@@ -169,6 +169,37 @@
 .wr-width3.wr-widthcenter   {   margin-left: 48.5%;   margin-right: 48.5%;  }
 .wr-width2.wr-widthcenter   {   margin-left: 49%;     margin-right: 49%;    }
 .wr-width1.wr-widthcenter   {   margin-left: 49.5%;   margin-right: 49.5%;  }
+.wr-width95.wr-widthright  {   margin-left: 5%;    }
+.wr-width90.wr-widthright  {   margin-left: 10%;   }
+.wr-width85.wr-widthright  {   margin-left: 15%;   }
+.wr-width80.wr-widthright  {   margin-left: 20%;   }
+.wr-width75.wr-widthright  {   margin-left: 25%;   }
+.wr-width70.wr-widthright  {   margin-left: 30%;   }
+.wr-width65.wr-widthright  {   margin-left: 35%;   }
+.wr-width60.wr-widthright  {   margin-left: 40%;   }
+.wr-width55.wr-widthright  {   margin-left: 45%;   }
+.wr-width50.wr-widthright  {   margin-left: 50%;   }
+.wr-width45.wr-widthright  {   margin-left: 55%;   }
+.wr-width40.wr-widthright  {   margin-left: 60%;   }
+.wr-width35.wr-widthright  {   margin-left: 65%;   }
+.wr-width30.wr-widthright  {   margin-left: 70%;   }
+.wr-width25.wr-widthright  {   margin-left: 75%;   }
+.wr-width20.wr-widthright  {   margin-left: 80%;   }
+.wr-width15.wr-widthright  {   margin-left: 85%;   }
+.wr-width14.wr-widthright  {   margin-left: 86%;   }
+.wr-width13.wr-widthright  {   margin-left: 87%;   }
+.wr-width12.wr-widthright  {   margin-left: 88%;   }
+.wr-width11.wr-widthright  {   margin-left: 89%;   }
+.wr-width10.wr-widthright  {   margin-left: 90%;   }
+.wr-width9.wr-widthright   {   margin-left: 91%;   }
+.wr-width8.wr-widthright   {   margin-left: 92%;   }
+.wr-width7.wr-widthright   {   margin-left: 93%;   }
+.wr-width6.wr-widthright   {   margin-left: 94%;   }
+.wr-width5.wr-widthright   {   margin-left: 95%;   }
+.wr-width4.wr-widthright   {   margin-left: 96%;   }
+.wr-width3.wr-widthright   {   margin-left: 97%;   }
+.wr-width2.wr-widthright   {   margin-left: 98%;   }
+.wr-width1.wr-widthright   {   margin-left: 99%;   }
 
 /* Auto -> 1 to 10 */
 .wr-inline *   {   max-width:100%;   }
@@ -198,7 +229,7 @@
 /* Large */
 @media (min-width: 992px){
     /* Adjust on percent */
-    .wr-fill-lg *            {   max-width:100%;   }
+    .wr-fill-lg *            {   max-width:100%; box-sizing: border-box;   }
     .wr-fill-lg>*            {   display: inline-block; vertical-align: top; max-width:100%;   }
     .wr-fill-lg>.wr-width100 {   width: 100%;  }
     .wr-fill-lg>.wr-width95  {   width: 95%;   }
@@ -257,7 +288,7 @@
 /* Medium */
 @media (min-width: 768px) and (max-width: 992px){
     /* Adjust on percent */
-    .wr-fill-md * { max-width:100%;   }
+    .wr-fill-md *            { max-width:100%; box-sizing: border-box;   }
     .wr-fill-md>*            {   display: inline-block; vertical-align: top; max-width:100%;   }
     .wr-fill-md>.wr-width100 {   width: 100%;  }
     .wr-fill-md>.wr-width95  {   width: 95%;   }
@@ -316,7 +347,7 @@
 /* Small */
 @media (max-width: 768px){
     /* Adjust on percent */
-    .wr-fill-sm * { max-width:100%;   }
+    .wr-fill-sm * { max-width:100%; box-sizing: border-box;  }
     .wr-fill-sm>*            {   display: inline-block; vertical-align: top;   }
     .wr-fill-sm>.wr-width100 {   width: 100%;  }
     .wr-fill-sm>.wr-width95  {   width: 95%;   }
