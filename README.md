@@ -1,7 +1,10 @@
 
+# wr-easy
 La librairie CSS webresponsive sans surcouche javascript.
 
 wr-easy est une librairie CSS3 qui ne nécessite pas de surcouche javascript.
+En revanche elle n'apporte aucun style de base pour laisser libre choix aux webdesigner.
+Elle n'a que pour seul but, simplifier au maximum la gestion webresponsive d'un site internet.
 
 ## Quelques exemples:
 
