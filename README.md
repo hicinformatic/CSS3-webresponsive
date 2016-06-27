@@ -83,7 +83,7 @@ style="height: 45px;"
 <div class="wr-inline-md wr-inline-sm"></div>
 ```
 
-###### Message d'alerte
+###### Message d'alerte (Bouton de suppression du message disponible)
 ```
 <div>
     <input class="wr-untoggle" id="bulle-info" type="checkbox">
