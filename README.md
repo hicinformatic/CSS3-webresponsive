@@ -35,7 +35,7 @@ style="height: 45px;"
 </nav>
 ```
 
-###### Une grille automatique de 1 à 10 colonne
+###### Une grille automatique de 1 à 10 colonnes
 ```
 <div class="wr-inline">
    <div>Col1</div><!--
@@ -57,6 +57,12 @@ style="height: 45px;"
 ```
 
 ###### Gestion webresponsive
+| Taile | Description | Informations |
+| --- | --- | --- |
+| lg | large > | > 993px (En général des laptops) |
+| md | medium | > 769px et < 993px (En général des tablets) |
+| sm | small | < 769 px (En général des smartphones) |
+
 ```
 <!-- All size -->
 <div class="wr-fill"></div>
