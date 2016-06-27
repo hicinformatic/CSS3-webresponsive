@@ -100,3 +100,27 @@ style="height: 45px;"
     <div class="wr-break10"></div>
 </div>
 ```
+
+##### Tabs (sans javascript a hauteur dynamique)
+```
+<div lass="wr-tabs">
+    <input class="wr-tab" type="radio" id="s1" name="s" checked/>
+    <input class="wr-tab" type="radio" id="s2" name="s"/>
+    <input class="wr-tab" type="radio" id="s9" name="s"/>
+    <input class="wr-tab" type="radio" id="s10" name="s"/>
+    <div class="wr-tab wr-inline">
+        <label for="s1">Tab1</label><!--
+     --><label for="s2">Tab2</label><!--
+            [ .. ]
+     --><label for="s9">Tab9</label><!--
+     --><label for="s10">Tab10</label>
+    </div>
+    <div class="wr-tabcontent">
+        <div>Tab1</div>
+        <div>Tab2</div>
+        [ ... ]
+        <div>Tab9</div>
+        <div>Tab10</div>
+    </div>
+</div>
+```
