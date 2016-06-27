@@ -5,7 +5,7 @@ wr-easy est une librairie CSS3 qui ne nécessite pas de surcouche javascript.
 
 ## Quelques exemples:
 
-  *Un simple Menu responsive*
+###### Un simple Menu responsive
 ```
 <!--
 Couleur du streak (bouton déroulant) en mode responsive:
