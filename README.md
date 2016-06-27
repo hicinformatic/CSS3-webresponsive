@@ -90,6 +90,12 @@ style="height: 45px;"
 ```
 
 ###### Message d'alerte (Bouton de suppression du message disponible)
+| Type | Description |
+| --- | --- | --- |
+| wr-info | Informations |
+| wr-success | Réussite |
+| wr-warning | Attention |
+| wr-danger | Danger |
 ```
 <div>
     <input class="wr-untoggle" id="bulle-info" type="checkbox">
@@ -101,7 +107,7 @@ style="height: 45px;"
 </div>
 ```
 
-##### Tabs (sans javascript a hauteur dynamique)
+###### Tabs (sans javascript a hauteur dynamique)
 ```
 <div lass="wr-tabs">
     <input class="wr-tab" type="radio" id="s1" name="s" checked/>
@@ -124,3 +130,4 @@ style="height: 45px;"
     </div>
 </div>
 ```
+
