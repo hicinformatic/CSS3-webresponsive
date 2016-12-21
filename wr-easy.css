@@ -469,3 +469,11 @@ Y8,        88 ,adPPPPP88 8b       88 8b       88 8PP"""""""   88     `"Y8ba,
 
 /* Scroll auto */
 *[class*='wr-scroll'] { overflow-y: scroll; }
+
+/* Box centered */
+.wr-centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
