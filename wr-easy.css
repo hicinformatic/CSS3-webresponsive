@@ -470,6 +470,18 @@ Y8,        88 ,adPPPPP88 8b       88 8b       88 8PP"""""""   88     `"Y8ba,
 /* Scroll auto */
 *[class*='wr-scroll'] { overflow-y: scroll; }
 
+/* Border */
+wr-bd-top1 { border-bottom: 1px solid; } wr-bd-bottom1 { border-bottom: 1px solid; }
+wr-bd-top2 { border-bottom: 2px solid; } wr-bd-bottom2 { border-bottom: 2px solid; }
+wr-bd-top3 { border-bottom: 3px solid; } wr-bd-bottom3 { border-bottom: 3px solid; }
+wr-bd-top4 { border-bottom: 4px solid; } wr-bd-bottom4 { border-bottom: 4px solid; }
+wr-bd-top5 { border-bottom: 5px solid; } wr-bd-bottom5 { border-bottom: 5px solid; }
+wr-bd-left1 { border-left: 1px solid; } wr-bd-right1 { border-right: 1px solid; }
+wr-bd-left2 { border-left: 2px solid; } wr-bd-right2 { border-right: 2px solid; }
+wr-bd-left3 { border-left: 3px solid; } wr-bd-right3 { border-right: 3px solid; }
+wr-bd-left4 { border-left: 4px solid; } wr-bd-right4 { border-right: 4px solid; }
+wr-bd-left5 { border-left: 5px solid; } wr-bd-right5 { border-right: 5px solid; }
+
 /* Box centered */
 .wr-centered {
   position: fixed;
