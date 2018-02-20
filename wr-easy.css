@@ -8,55 +8,146 @@ h1, h2, h3, h4, h5, p, ul, li { margin: 0;}
 ██╔══██║██║     ██║     
 ██║  ██║███████╗███████╗
 ╚═╝  ╚═╝╚══════╝╚═════*/
-.wr.w0  { width: 0%;   }
-.wr.w1  { width: 1%;   }
-.wr.w2  { width: 2%;   }
-.wr.w3  { width: 3%;   }
-.wr.w4  { width: 4%;   }
-.wr.w5  { width: 5%;   }
-.wr.w6  { width: 6%;   }
-.wr.w7  { width: 7%;   }
-.wr.w8  { width: 8%;   }
-.wr.w9  { width: 9%;   }
-.wr.w10 { width: 10%;  }
-.wr.w15 { width: 15%;  }
-.wr.w20 { width: 20%;  }
-.wr.w25 { width: 25%;  }
-.wr.w30 { width: 30%;  }
-.wr.w35 { width: 35%;  }
-.wr.w40 { width: 40%;  }
-.wr.w45 { width: 45%;  }
-.wr.w50 { width: 50%;  }
-.wr.w55 { width: 55%;  }
-.wr.w60 { width: 60%;  }
-.wr.w65 { width: 65%;  }
-.wr.w70 { width: 70%;  }
-.wr.w75 { width: 75%;  }
-.wr.w80 { width: 80%;  }
-.wr.w85 { width: 85%;  }
-.wr.w90 { width: 90%;  }
-.wr.w95 { width: 95%;  }
-.wr.w100{ width: 100%; }
-.wr.wa>*:first-child:nth-last-child(1) { width: 100%;            }
-.wr.wa>*:first-child:nth-last-child(2) { width: 50%;             }
-.wr.wa>*:first-child:nth-last-child(3) { width: calc(100% / 3);  }
-.wr.wa>*:first-child:nth-last-child(4) { width: 25%;             }
-.wr.wa>*:first-child:nth-last-child(5) { width: 20%;             }
-.wr.wa>*:first-child:nth-last-child(6) { width: calc(100% / 6);  }
-.wr.wa>*:first-child:nth-last-child(7) { width: calc(100% / 7);  }
-.wr.wa>*:first-child:nth-last-child(8) { width: 12.5%;           }
-.wr.wa>*:first-child:nth-last-child(9) { width: calc(100% / 9);  }
-.wr.wa>*:first-child:nth-last-child(10){ width: 10%;             }
-.wr.wa>*:first-child:nth-last-child(11){ width: calc(100% / 11); }
-.wr.wa>*:first-child:nth-last-child(12){ width: calc(100% / 12); }
-.wr.wa>*:first-child:nth-last-child(13){ width: calc(100% / 13); }
-.wr.wa>*:first-child:nth-last-child(14){ width: calc(100% / 14); }
-.wr.wa>*:first-child:nth-last-child(15){ width: calc(100% / 15); }
-.wr.wa>*:first-child:nth-last-child(16){ width: 6.25%;           }
-.wr.wa>*:first-child:nth-last-child(17){ width: calc(100% / 17); }
-.wr.wa>*:first-child:nth-last-child(18){ width: calc(100% / 18); }
-.wr.wa>*:first-child:nth-last-child(19){ width: calc(100% / 19); }
-.wr.wa>*:first-child:nth-last-child(20){ width: 5%;              }
+/* Vertical alignement */                                     /* Position */
+.wr.vat, .wr.vatr *, .wr.vat1 > * { vertical-align: top;    } .wr.prlv { position: relative; }
+.wr.vam, .wr.vamr *, .wr.vam1 > * { vertical-align: middle; } .wr.pfix { position: fixed;    }
+.wr.vab, .wr.vabr *, .wr.vab1 > * { vertical-align: bottom; } .wr.pabs { position: absolute; }
+/* Display */
+.wr.dn,  .wr.dnr *,  .wr.dn1 > *  { display: none;         }
+.wr.db,  .wr.dbr *,  .wr.db1 > *  { display: block;        }
+.wr.dib, .wr.dibr *, .wr.dib1 > * { display: inline-block; }
+.wr.dt,  .wr.dtr *,  .wr.dt1 > *  { display: table;        }
+.wr.db,  .wr.dbr *,  .wr.db1 > *  { display: block;        }
+.wr.dib, .wr.dibr *, .wr.dib1 > * { display: inline-block; }
+.wr.dt,  .wr.dtr *,  .wr.dt1 > *  { display: table;        }
+/* Width */
+.wr.w0   { width: 0%;   } .wr.wa>*:first-child:nth-last-child(1)  { width: 100%;            }
+.wr.w1   { width: 1%;   } .wr.wa>*:first-child:nth-last-child(2)  { width: 50%;             }
+.wr.w2   { width: 2%;   } .wr.wa>*:first-child:nth-last-child(3)  { width: calc(100% / 3);  }
+.wr.w3   { width: 3%;   } .wr.wa>*:first-child:nth-last-child(4)  { width: 25%;             }
+.wr.w4   { width: 4%;   } .wr.wa>*:first-child:nth-last-child(5)  { width: 20%;             }
+.wr.w5   { width: 5%;   } .wr.wa>*:first-child:nth-last-child(6)  { width: calc(100% / 6);  }
+.wr.w6   { width: 6%;   } .wr.wa>*:first-child:nth-last-child(7)  { width: calc(100% / 7);  }
+.wr.w7   { width: 7%;   } .wr.wa>*:first-child:nth-last-child(8)  { width: 12.5%;           }
+.wr.w8   { width: 8%;   } .wr.wa>*:first-child:nth-last-child(9)  { width: calc(100% / 9);  }
+.wr.w9   { width: 9%;   } .wr.wa>*:first-child:nth-last-child(10) { width: 10%;             }
+.wr.w10  { width: 10%;  } .wr.wa>*:first-child:nth-last-child(11) { width: calc(100% / 11); }
+.wr.w15  { width: 15%;  } .wr.wa>*:first-child:nth-last-child(12) { width: calc(100% / 12); }
+.wr.w20  { width: 20%;  } .wr.wa>*:first-child:nth-last-child(13) { width: calc(100% / 13); }
+.wr.w25  { width: 25%;  } .wr.wa>*:first-child:nth-last-child(14) { width: calc(100% / 14); }
+.wr.w30  { width: 30%;  } .wr.wa>*:first-child:nth-last-child(15) { width: calc(100% / 15); }
+.wr.w35  { width: 35%;  } .wr.wa>*:first-child:nth-last-child(16) { width: 6.25%;           }
+.wr.w40  { width: 40%;  } .wr.wa>*:first-child:nth-last-child(17) { width: calc(100% / 17); }
+.wr.w45  { width: 45%;  } .wr.wa>*:first-child:nth-last-child(18) { width: calc(100% / 18); }
+.wr.w50  { width: 50%;  } .wr.wa>*:first-child:nth-last-child(19) { width: calc(100% / 19); }
+.wr.w55  { width: 55%;  } .wr.wa>*:first-child:nth-last-child(20) { width: 5%;              }
+.wr.w60  { width: 60%;  }
+.wr.w65  { width: 65%;  }
+.wr.w70  { width: 70%;  }
+.wr.w75  { width: 75%;  }
+.wr.w80  { width: 80%;  }
+.wr.w85  { width: 85%;  }
+.wr.w90  { width: 90%;  }
+.wr.w95  { width: 95%;  }
+.wr.w100 { width: 100%; }
+/* Margin */
+.wr.mrgl.per50 { margin-left: 50%; } .wr.mrgy.per50 { margin-left: 50%; margin-right: 50%; } .wr.mrgr.per50 { margin-right: 50%; }
+.wr.mrgl.per45 { margin-left: 45%; } .wr.mrgy.per45 { margin-left: 45%; margin-right: 45%; } .wr.mrgr.per45 { margin-right: 45%; }
+.wr.mrgl.per40 { margin-left: 40%; } .wr.mrgy.per40 { margin-left: 40%; margin-right: 40%; } .wr.mrgr.per40 { margin-right: 40%; }
+.wr.mrgl.per35 { margin-left: 35%; } .wr.mrgy.per35 { margin-left: 35%; margin-right: 35%; } .wr.mrgr.per35 { margin-right: 35%; }
+.wr.mrgl.per30 { margin-left: 30%; } .wr.mrgy.per30 { margin-left: 30%; margin-right: 30%; } .wr.mrgr.per30 { margin-right: 30%; }
+.wr.mrgl.per25 { margin-left: 25%; } .wr.mrgy.per25 { margin-left: 25%; margin-right: 25%; } .wr.mrgr.per25 { margin-right: 25%; }
+.wr.mrgl.per20 { margin-left: 20%; } .wr.mrgy.per20 { margin-left: 20%; margin-right: 20%; } .wr.mrgr.per20 { margin-right: 20%; }
+.wr.mrgl.per15 { margin-left: 15%; } .wr.mrgy.per15 { margin-left: 15%; margin-right: 15%; } .wr.mrgr.per15 { margin-right: 15%; }
+.wr.mrgl.per10 { margin-left: 10%; } .wr.mrgy.per10 { margin-left: 10%; margin-right: 10%; } .wr.mrgr.per10 { margin-right: 10%; }
+.wr.mrgl.per9  { margin-left: 9%;  } .wr.mrgy.per9  { margin-left: 9%;  margin-right: 9%;  } .wr.mrgr.per9  { margin-right: 9%;  }
+.wr.mrgl.per8  { margin-left: 8%;  } .wr.mrgy.per8  { margin-left: 8%;  margin-right: 8%;  } .wr.mrgr.per8  { margin-right: 8%;  }
+.wr.mrgl.per7  { margin-left: 7%;  } .wr.mrgy.per7  { margin-left: 7%;  margin-right: 7%;  } .wr.mrgr.per7  { margin-right: 7%;  }
+.wr.mrgl.per6  { margin-left: 6%;  } .wr.mrgy.per6  { margin-left: 6%;  margin-right: 6%;  } .wr.mrgr.per6  { margin-right: 6%;  }
+.wr.mrgl.per5  { margin-left: 5%;  } .wr.mrgy.per5  { margin-left: 5%;  margin-right: 5%;  } .wr.mrgr.per5  { margin-right: 5%;  }
+.wr.mrgl.per4  { margin-left: 4%;  } .wr.mrgy.per4  { margin-left: 4%;  margin-right: 4%;  } .wr.mrgr.per4  { margin-right: 4%;  }
+.wr.mrgl.per3  { margin-left: 3%;  } .wr.mrgy.per3  { margin-left: 3%;  margin-right: 3%;  } .wr.mrgr.per3  { margin-right: 3%;  }
+.wr.mrgl.per2  { margin-left: 2%;  } .wr.mrgy.per2  { margin-left: 2%;  margin-right: 2%;  } .wr.mrgr.per2  { margin-right: 2%;  }
+.wr.mrgl.per1  { margin-left: 1%;  } .wr.mrgy.per1  { margin-left: 1%;  margin-right: 1%;  } .wr.mrgr.per1  { margin-right: 1%;  }
+.wr.mrg.px0  { margin: 0;    } .wr.mrgt.px0  { margin-top: 0;    } .wr.mrgr.px0  { margin-right: 0;    } .wr.mrgb.px0  { margin-bottom: 0;    } .wr.mrgl.px0 { margin-left: 0;    } 
+.wr.mrg.px1  { margin: 1px;  } .wr.mrgt.px1  { margin-top: 1px;  } .wr.mrgr.px1  { margin-right: 1px;  } .wr.mrgb.px1  { margin-bottom: 1px;  } .wr.mrgl.px1 { margin-left: 1px;  }
+.wr.mrg.px2  { margin: 2px;  } .wr.mrgt.px2  { margin-top: 2px;  } .wr.mrgr.px2  { margin-right: 2px;  } .wr.mrgb.px2  { margin-bottom: 2px;  } .wr.mrgl.px2 { margin-left: 2px;  }
+.wr.mrg.px3  { margin: 3px;  } .wr.mrgt.px3  { margin-top: 3px;  } .wr.mrgr.px3  { margin-right: 3px;  } .wr.mrgb.px3  { margin-bottom: 3px;  } .wr.mrgl.px3 { margin-left: 3px;  }
+.wr.mrg.px4  { margin: 4px;  } .wr.mrgt.px4  { margin-top: 4px;  } .wr.mrgr.px4  { margin-right: 4px;  } .wr.mrgb.px4  { margin-bottom: 4px;  } .wr.mrgl.px4 { margin-left: 4px;  }
+.wr.mrg.px5  { margin: 5px;  } .wr.mrgt.px5  { margin-top: 5px;  } .wr.mrgr.px5  { margin-right: 5px;  } .wr.mrgb.px5  { margin-bottom: 5px;  } .wr.mrgl.px5 { margin-left: 5px;  }
+.wr.mrg.px6  { margin: 6px;  } .wr.mrgt.px6  { margin-top: 6px;  } .wr.mrgr.px6  { margin-right: 6px;  } .wr.mrgb.px6  { margin-bottom: 6px;  } .wr.mrgl.px6 { margin-left: 6px;  }
+.wr.mrg.px7  { margin: 7px;  } .wr.mrgt.px7  { margin-top: 7px;  } .wr.mrgr.px7  { margin-right: 7px;  } .wr.mrgb.px7  { margin-bottom: 7px;  } .wr.mrgl.px7 { margin-left: 7px;  }
+.wr.mrg.px8  { margin: 8px;  } .wr.mrgt.px8  { margin-top: 8px;  } .wr.mrgr.px8  { margin-right: 8px;  } .wr.mrgb.px8  { margin-bottom: 8px;  } .wr.mrgl.px8 { margin-left: 8px;  }
+.wr.mrg.px9  { margin: 9px;  } .wr.mrgt.px9  { margin-top: 9px;  } .wr.mrgr.px9  { margin-right: 9px;  } .wr.mrgb.px9  { margin-bottom: 9px;  } .wr.mrgl.px9 { margin-left: 9px;  }
+.wr.mrg.px10 { margin: 10px; } .wr.mrgt.px10 { margin-top: 10px; } .wr.mrgr.px10 { margin-right: 10px; } .wr.mrgb.px10 { margin-bottom: 10px; } .wr.mrgl10 { margin-left: 10px; }
+.wr.mrg.px20 { margin: 20px; } .wr.mrgt.px20 { margin-top: 20px; } .wr.mrgr.px20 { margin-right: 20px; } .wr.mrgb.px20 { margin-bottom: 20px; } .wr.mrgl20 { margin-left: 20px; }
+.wr.mrg.px30 { margin: 30px; } .wr.mrgt.px30 { margin-top: 30px; } .wr.mrgr.px30 { margin-right: 30px; } .wr.mrgb.px30 { margin-bottom: 30px; } .wr.mrgl30 { margin-left: 30px; }
+.wr.mrg.px40 { margin: 40px; } .wr.mrgt.px40 { margin-top: 40px; } .wr.mrgr.px40 { margin-right: 40px; } .wr.mrgb.px40 { margin-bottom: 40px; } .wr.mrgl40 { margin-left: 40px; }
+.wr.mrg.px50 { margin: 50px; } .wr.mrgt.px50 { margin-top: 50px; } .wr.mrgr.px50 { margin-right: 50px; } .wr.mrgb.px50 { margin-bottom: 50px; } .wr.mrgl50 { margin-left: 50px; }
+.wr.mrgy.px0  { margin-left: 0;    margin-right: 0;    } .wr.mrg.px0  { margin-top: 0;    margin-bottom: 0;    }
+.wr.mrgy.px1  { margin-left: 1px;  margin-right: 1px;  } .wr.mrg.px1  { margin-top: 1px;  margin-bottom: 1px;  }
+.wr.mrgy.px2  { margin-left: 2px;  margin-right: 2px;  } .wr.mrg.px2  { margin-top: 2px;  margin-bottom: 2px;  }
+.wr.mrgy.px3  { margin-left: 3px;  margin-right: 3px;  } .wr.mrg.px3  { margin-top: 3px;  margin-bottom: 3px;  }
+.wr.mrgy.px4  { margin-left: 4px;  margin-right: 4px;  } .wr.mrg.px4  { margin-top: 4px;  margin-bottom: 4px;  }
+.wr.mrgy.px5  { margin-left: 5px;  margin-right: 5px;  } .wr.mrg.px5  { margin-top: 5px;  margin-bottom: 5px;  }
+.wr.mrgy.px6  { margin-left: 6px;  margin-right: 6px;  } .wr.mrg.px6  { margin-top: 6px;  margin-bottom: 6px;  }
+.wr.mrgy.px7  { margin-left: 7px;  margin-right: 7px;  } .wr.mrg.px7  { margin-top: 7px;  margin-bottom: 7px;  }
+.wr.mrgy.px8  { margin-left: 8px;  margin-right: 8px;  } .wr.mrg.px8  { margin-top: 8px;  margin-bottom: 8px;  }
+.wr.mrgy.px9  { margin-left: 9px;  margin-right: 9px;  } .wr.mrg.px9  { margin-top: 9px;  margin-bottom: 9px;  }
+.wr.mrgy.px10 { margin-left: 10px; margin-right: 10px; } .wr.mrg.px10 { margin-top: 10px; margin-bottom: 10px; }
+.wr.mrgy.px20 { margin-left: 20px; margin-right: 20px; } .wr.mrg.px20 { margin-top: 20px; margin-bottom: 20px; }
+.wr.mrgy.px30 { margin-left: 30px; margin-right: 30px; } .wr.mrg.px30 { margin-top: 30px; margin-bottom: 30px; }
+.wr.mrgy.px40 { margin-left: 40px; margin-right: 40px; } .wr.mrg.px40 { margin-top: 40px; margin-bottom: 40px; }
+.wr.mrgy.px50 { margin-left: 50px; margin-right: 50px; } .wr.mrg.px50 { margin-top: 50px; margin-bottom: 50px; }
+/* Padding */
+.wr.padl.per50 { margin-left: 50%; } .wr.pady.per50 { margin-left: 50%; margin-right: 50%; } .wr.padr.per50 { margin-right: 50%; }
+.wr.padl.per45 { margin-left: 45%; } .wr.pady.per45 { margin-left: 45%; margin-right: 45%; } .wr.padr.per45 { margin-right: 45%; }
+.wr.padl.per40 { margin-left: 40%; } .wr.pady.per40 { margin-left: 40%; margin-right: 40%; } .wr.padr.per40 { margin-right: 40%; }
+.wr.padl.per35 { margin-left: 35%; } .wr.pady.per35 { margin-left: 35%; margin-right: 35%; } .wr.padr.per35 { margin-right: 35%; }
+.wr.padl.per30 { margin-left: 30%; } .wr.pady.per30 { margin-left: 30%; margin-right: 30%; } .wr.padr.per30 { margin-right: 30%; }
+.wr.padl.per25 { margin-left: 25%; } .wr.pady.per25 { margin-left: 25%; margin-right: 25%; } .wr.padr.per25 { margin-right: 25%; }
+.wr.padl.per20 { margin-left: 20%; } .wr.pady.per20 { margin-left: 20%; margin-right: 20%; } .wr.padr.per20 { margin-right: 20%; }
+.wr.padl.per15 { margin-left: 15%; } .wr.pady.per15 { margin-left: 15%; margin-right: 15%; } .wr.padr.per15 { margin-right: 15%; }
+.wr.padl.per10 { margin-left: 10%; } .wr.pady.per10 { margin-left: 10%; margin-right: 10%; } .wr.padr.per10 { margin-right: 10%; }
+.wr.padl.per9  { margin-left: 9%;  } .wr.pady.per9  { margin-left: 9%;  margin-right: 9%;  } .wr.padr.per9  { margin-right: 9%;  }
+.wr.padl.per8  { margin-left: 8%;  } .wr.pady.per8  { margin-left: 8%;  margin-right: 8%;  } .wr.padr.per8  { margin-right: 8%;  }
+.wr.padl.per7  { margin-left: 7%;  } .wr.pady.per7  { margin-left: 7%;  margin-right: 7%;  } .wr.padr.per7  { margin-right: 7%;  }
+.wr.padl.per6  { margin-left: 6%;  } .wr.pady.per6  { margin-left: 6%;  margin-right: 6%;  } .wr.padr.per6  { margin-right: 6%;  }
+.wr.padl.per5  { margin-left: 5%;  } .wr.pady.per5  { margin-left: 5%;  margin-right: 5%;  } .wr.padr.per5  { margin-right: 5%;  }
+.wr.padl.per4  { margin-left: 4%;  } .wr.pady.per4  { margin-left: 4%;  margin-right: 4%;  } .wr.padr.per4  { margin-right: 4%;  }
+.wr.padl.per3  { margin-left: 3%;  } .wr.pady.per3  { margin-left: 3%;  margin-right: 3%;  } .wr.padr.per3  { margin-right: 3%;  }
+.wr.padl.per2  { margin-left: 2%;  } .wr.pady.per2  { margin-left: 2%;  margin-right: 2%;  } .wr.padr.per2  { margin-right: 2%;  }
+.wr.padl.per1  { margin-left: 1%;  } .wr.pady.per1  { margin-left: 1%;  margin-right: 1%;  } .wr.padr.per1  { margin-right: 1%;  }
+.wr.pad.px0  { margin: 0;    } .wr.padt.px0  { margin-top: 0;    } .wr.padr.px0  { margin-right: 0;    } .wr.padb.px0  { margin-bottom: 0;    } .wr.padl.px0 { margin-left: 0;    } 
+.wr.pad.px1  { margin: 1px;  } .wr.padt.px1  { margin-top: 1px;  } .wr.padr.px1  { margin-right: 1px;  } .wr.padb.px1  { margin-bottom: 1px;  } .wr.padl.px1 { margin-left: 1px;  }
+.wr.pad.px2  { margin: 2px;  } .wr.padt.px2  { margin-top: 2px;  } .wr.padr.px2  { margin-right: 2px;  } .wr.padb.px2  { margin-bottom: 2px;  } .wr.padl.px2 { margin-left: 2px;  }
+.wr.pad.px3  { margin: 3px;  } .wr.padt.px3  { margin-top: 3px;  } .wr.padr.px3  { margin-right: 3px;  } .wr.padb.px3  { margin-bottom: 3px;  } .wr.padl.px3 { margin-left: 3px;  }
+.wr.pad.px4  { margin: 4px;  } .wr.padt.px4  { margin-top: 4px;  } .wr.padr.px4  { margin-right: 4px;  } .wr.padb.px4  { margin-bottom: 4px;  } .wr.padl.px4 { margin-left: 4px;  }
+.wr.pad.px5  { margin: 5px;  } .wr.padt.px5  { margin-top: 5px;  } .wr.padr.px5  { margin-right: 5px;  } .wr.padb.px5  { margin-bottom: 5px;  } .wr.padl.px5 { margin-left: 5px;  }
+.wr.pad.px6  { margin: 6px;  } .wr.padt.px6  { margin-top: 6px;  } .wr.padr.px6  { margin-right: 6px;  } .wr.padb.px6  { margin-bottom: 6px;  } .wr.padl.px6 { margin-left: 6px;  }
+.wr.pad.px7  { margin: 7px;  } .wr.padt.px7  { margin-top: 7px;  } .wr.padr.px7  { margin-right: 7px;  } .wr.padb.px7  { margin-bottom: 7px;  } .wr.padl.px7 { margin-left: 7px;  }
+.wr.pad.px8  { margin: 8px;  } .wr.padt.px8  { margin-top: 8px;  } .wr.padr.px8  { margin-right: 8px;  } .wr.padb.px8  { margin-bottom: 8px;  } .wr.padl.px8 { margin-left: 8px;  }
+.wr.pad.px9  { margin: 9px;  } .wr.padt.px9  { margin-top: 9px;  } .wr.padr.px9  { margin-right: 9px;  } .wr.padb.px9  { margin-bottom: 9px;  } .wr.padl.px9 { margin-left: 9px;  }
+.wr.pad.px10 { margin: 10px; } .wr.padt.px10 { margin-top: 10px; } .wr.padr.px10 { margin-right: 10px; } .wr.padb.px10 { margin-bottom: 10px; } .wr.padl10 { margin-left: 10px; }
+.wr.pad.px20 { margin: 20px; } .wr.padt.px20 { margin-top: 20px; } .wr.padr.px20 { margin-right: 20px; } .wr.padb.px20 { margin-bottom: 20px; } .wr.padl20 { margin-left: 20px; }
+.wr.pad.px30 { margin: 30px; } .wr.padt.px30 { margin-top: 30px; } .wr.padr.px30 { margin-right: 30px; } .wr.padb.px30 { margin-bottom: 30px; } .wr.padl30 { margin-left: 30px; }
+.wr.pad.px40 { margin: 40px; } .wr.padt.px40 { margin-top: 40px; } .wr.padr.px40 { margin-right: 40px; } .wr.padb.px40 { margin-bottom: 40px; } .wr.padl40 { margin-left: 40px; }
+.wr.pad.px50 { margin: 50px; } .wr.padt.px50 { margin-top: 50px; } .wr.padr.px50 { margin-right: 50px; } .wr.padb.px50 { margin-bottom: 50px; } .wr.padl50 { margin-left: 50px; }
+.wr.pady.px0  { margin-left: 0;    margin-right: 0;    } .wr.pad.px0  { margin-top: 0;    margin-bottom: 0;    }
+.wr.pady.px1  { margin-left: 1px;  margin-right: 1px;  } .wr.pad.px1  { margin-top: 1px;  margin-bottom: 1px;  }
+.wr.pady.px2  { margin-left: 2px;  margin-right: 2px;  } .wr.pad.px2  { margin-top: 2px;  margin-bottom: 2px;  }
+.wr.pady.px3  { margin-left: 3px;  margin-right: 3px;  } .wr.pad.px3  { margin-top: 3px;  margin-bottom: 3px;  }
+.wr.pady.px4  { margin-left: 4px;  margin-right: 4px;  } .wr.pad.px4  { margin-top: 4px;  margin-bottom: 4px;  }
+.wr.pady.px5  { margin-left: 5px;  margin-right: 5px;  } .wr.pad.px5  { margin-top: 5px;  margin-bottom: 5px;  }
+.wr.pady.px6  { margin-left: 6px;  margin-right: 6px;  } .wr.pad.px6  { margin-top: 6px;  margin-bottom: 6px;  }
+.wr.pady.px7  { margin-left: 7px;  margin-right: 7px;  } .wr.pad.px7  { margin-top: 7px;  margin-bottom: 7px;  }
+.wr.pady.px8  { margin-left: 8px;  margin-right: 8px;  } .wr.pad.px8  { margin-top: 8px;  margin-bottom: 8px;  }
+.wr.pady.px9  { margin-left: 9px;  margin-right: 9px;  } .wr.pad.px9  { margin-top: 9px;  margin-bottom: 9px;  }
+.wr.pady.px10 { margin-left: 10px; margin-right: 10px; } .wr.pad.px10 { margin-top: 10px; margin-bottom: 10px; }
+.wr.pady.px20 { margin-left: 20px; margin-right: 20px; } .wr.pad.px20 { margin-top: 20px; margin-bottom: 20px; }
+.wr.pady.px30 { margin-left: 30px; margin-right: 30px; } .wr.pad.px30 { margin-top: 30px; margin-bottom: 30px; }
+.wr.pady.px40 { margin-left: 40px; margin-right: 40px; } .wr.pad.px40 { margin-top: 40px; margin-bottom: 40px; }
+.wr.pady.px50 { margin-left: 50px; margin-right: 50px; } .wr.pad.px50 { margin-top: 50px; margin-bottom: 50px; }
 
 /*╗      █████╗ ██████╗  ██████╗ ███████╗
 ██║     ██╔══██╗██╔══██╗██╔════╝ ██╔════╝
